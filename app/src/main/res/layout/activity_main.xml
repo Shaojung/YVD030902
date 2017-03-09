@@ -36,4 +36,23 @@
         android:layout_alignStart="@+id/button"
         android:id="@+id/button2"
         android:onClick="click2" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp"
+        android:id="@+id/progressBar2"
+        android:progress="20" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar2"
+        android:layout_alignEnd="@+id/button2"
+        android:id="@+id/button3"
+        android:onClick="click3" />
 </RelativeLayout>
